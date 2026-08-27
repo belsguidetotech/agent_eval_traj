@@ -1,0 +1,495 @@
+repo_name,repo_status,mode,confidence,provider,n_files,has_pipeline_state,has_standard_logs,has_autoresearch,has_hitl,has_hitl_launch,evidence
+llms-expose-science-claude,executed,unknown,low,claude,56,False,True,False,False,False,insufficient runtime evidence
+ai-human-communication-claude,executed,unknown,low,claude,71,False,True,False,False,False,insufficient runtime evidence
+llm-nonsense-commands-codex,executed,unknown,low,codex,42,False,True,False,False,False,insufficient runtime evidence
+llms-expose-science-codex,executed,unknown,low,codex,36,False,True,False,False,False,insufficient runtime evidence
+ai-human-comm-codex,executed,unknown,low,codex,33,False,True,False,False,False,insufficient runtime evidence
+llm-nonsense-commands-gemini,executed,unknown,low,gemini,39,False,True,False,False,False,insufficient runtime evidence
+llms-expose-science-gemini,executed,unknown,low,gemini,39,False,True,False,False,False,insufficient runtime evidence
+ai-human-communication-gemini,executed,unknown,low,gemini,32,False,True,False,False,False,insufficient runtime evidence
+llm-nonsense-commands-claude,executed,standard,medium,codex,241,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+collab-disagreement-claude,executed,unknown,low,claude,54,False,True,False,False,False,insufficient runtime evidence
+collab-disagreement-codex,executed,unknown,low,codex,47,False,True,False,False,False,insufficient runtime evidence
+collab-disagreement-gemini,executed,unknown,low,gemini,34,False,True,False,False,False,insufficient runtime evidence
+evolved-desire-llms-gemini,executed,unknown,low,gemini,30,False,True,False,False,False,insufficient runtime evidence
+evolved-desire-llms-codex,executed,unknown,low,codex,36,False,True,False,False,False,insufficient runtime evidence
+evolved-desire-llms-claude,executed,standard,medium,codex,255,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+ai-methods-durability-gemini,executed,unknown,low,gemini,54,False,True,False,False,False,insufficient runtime evidence
+ai-methods-durability-codex,executed,unknown,low,codex,42,False,True,False,False,False,insufficient runtime evidence
+ai-methods-durability-claude,unclassified_content,unknown,low,claude,2,False,False,False,False,False,insufficient runtime evidence
+model-character-limit-gemini,executed,unknown,low,gemini,36,False,True,False,False,False,insufficient runtime evidence
+model-character-limit-codex,executed,unknown,low,codex,44,False,True,False,False,False,insufficient runtime evidence
+model-character-limit-claude,executed,standard,medium,codex,248,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+constrain-llm-behavior-codex,executed,unknown,low,codex,40,False,True,False,False,False,insufficient runtime evidence
+llm-behavior-constraints-claude,executed,unknown,low,claude,44,False,True,False,False,False,insufficient runtime evidence
+constrain-llm-behavior-gemini,unclassified_content,unknown,low,gemini,38,False,False,False,False,False,insufficient runtime evidence
+ai-review-equilibrium-codex,executed,unknown,low,codex,47,False,True,False,False,False,insufficient runtime evidence
+ai-review-equilibrium-claude,executed,unknown,low,claude,48,False,True,False,False,False,insufficient runtime evidence
+ai-review-equilibrium-gemini,executed,unknown,low,gemini,70,False,True,False,False,False,insufficient runtime evidence
+hide-prompts-length-gemini,executed,unknown,low,gemini,46,False,True,False,False,False,insufficient runtime evidence
+adversarial-prompts-docs-codex,executed,unknown,low,codex,41,False,True,False,False,False,insufficient runtime evidence
+adversarial-prompts-claude,executed,standard,medium,codex,305,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+latent-visual-reasoning-gemini,executed,unknown,low,gemini,73,False,True,False,False,False,insufficient runtime evidence
+llm-keeping-secrets-gemini,executed,unknown,low,gemini,50,False,True,False,False,False,insufficient runtime evidence
+latent-visual-reasoning-claude,executed,unknown,low,claude,53,False,True,False,False,False,insufficient runtime evidence
+latent-visual-reasoning-codex,executed,unknown,low,codex,49,False,True,False,False,False,insufficient runtime evidence
+llms-keep-secrets-codex,executed,unknown,low,codex,49,False,True,False,False,False,insufficient runtime evidence
+llms-keep-secrets-claude,executed,unknown,low,claude,45,False,True,False,False,False,insufficient runtime evidence
+auto-opt-pde-solver-claude,executed,unknown,low,claude,49,False,True,False,False,False,insufficient runtime evidence
+llm-epistemic-belief-claude,executed,unknown,low,claude,46,False,True,False,False,False,insufficient runtime evidence
+humor-recognition-llm-gemini,executed,unknown,low,gemini,52,False,True,False,False,False,insufficient runtime evidence
+multi-scale-nested-gemini,executed,unknown,low,gemini,39,False,True,False,False,False,insufficient runtime evidence
+recursion-visual-text-gemini,executed,unknown,low,gemini,37,False,True,False,False,False,insufficient runtime evidence
+humor-recognition-llm-claude,executed,standard,medium,codex,319,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+multi-scale-nested-claude,executed,unknown,low,claude,52,False,True,False,False,False,insufficient runtime evidence
+recursion-visual-text-claude,executed,unknown,low,claude,43,False,True,False,False,False,insufficient runtime evidence
+emergent-misalignment-claude,executed,unknown,low,claude,64,False,True,False,False,False,insufficient runtime evidence
+llm-human-vs-llm-ffea-gemini,executed,unknown,low,claude,43,False,True,False,False,False,insufficient runtime evidence
+ai-undetectability-lb-dd40-gemini,executed,unknown,low,claude,66,False,True,False,False,False,insufficient runtime evidence
+llm-human-vs-llm-54c9-claude,executed,unknown,low,claude,69,False,True,False,False,False,insufficient runtime evidence
+llm-linguistic-eval-62f9-gemini,executed,unknown,low,claude,82,False,True,False,False,False,insufficient runtime evidence
+ai-undetectability-lb-433c-claude,executed,unknown,low,claude,77,False,True,False,False,False,insufficient runtime evidence
+llm-linguistic-eval-bb29-claude,executed,unknown,low,claude,75,False,True,False,False,False,insufficient runtime evidence
+auto-opt-pde-solver-65e0,executed,unknown,low,claude,99,False,True,False,False,False,insufficient runtime evidence
+natural-hallucinations-1245-gemini,executed,unknown,low,codex,284,False,True,False,False,False,insufficient runtime evidence
+natural-hallucinations-claude,executed,standard,medium,codex,10705,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-output-length-claude,executed,unknown,low,claude,171,False,True,False,False,False,insufficient runtime evidence
+mechanistic-llm-tools-claude,executed,unknown,low,claude,190,False,True,False,False,False,insufficient runtime evidence
+natural-hallucinations-codex,executed,unknown,low,codex,210,False,True,False,False,False,insufficient runtime evidence
+llm-output-length-codex,executed,unknown,low,codex,190,False,True,False,False,False,insufficient runtime evidence
+llm-tool-selection-codex,executed,unknown,low,codex,244,False,True,False,False,False,insufficient runtime evidence
+llm-output-length-gemini,executed,unknown,low,codex,198,False,True,False,False,False,insufficient runtime evidence
+mechanistic-llm-tools-gemini,executed,unknown,low,codex,167,False,True,False,False,False,insufficient runtime evidence
+fix-lazy-llms-claude,executed,unknown,low,codex,220,False,True,False,False,False,insufficient runtime evidence
+fix-lazy-llms-codex,executed,unknown,low,codex,227,False,True,False,False,False,insufficient runtime evidence
+fix-lazy-llms-gemini,executed,unknown,low,codex,202,False,True,False,False,False,insufficient runtime evidence
+news-from-future-ai-claude,executed,unknown,low,codex,242,False,True,False,False,False,insufficient runtime evidence
+news-future-ai-codex,executed,unknown,low,codex,262,False,True,False,False,False,insufficient runtime evidence
+news-future-ai-gemini,executed,unknown,low,codex,160,False,True,False,False,False,insufficient runtime evidence
+isolate-knowledge-updates-claude,executed,standard,medium,codex,300,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+isolate-knowledge-updates-codex,executed,unknown,low,codex,231,False,True,False,False,False,insufficient runtime evidence
+isolate-knowledge-updates-gemini,executed,unknown,low,codex,267,False,True,False,False,False,insufficient runtime evidence
+carrot-or-stick-nlp-e135-claude,executed,unknown,low,codex,263,False,True,False,False,False,insufficient runtime evidence
+carrot-or-stick-nlp-gemini,executed,unknown,low,codex,215,False,True,False,False,False,insufficient runtime evidence
+carrot-or-stick-nlp-codex,executed,unknown,low,codex,213,False,True,False,False,False,insufficient runtime evidence
+llm-washing-machine-gemini,executed,unknown,low,codex,296,False,True,False,False,False,insufficient runtime evidence
+llm-washing-machine-codex,executed,unknown,low,codex,305,False,True,False,False,False,insufficient runtime evidence
+llm-washing-machine-claude,executed,standard,medium,codex,541,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+fix-user-intent-nlp-claude,executed,unknown,low,codex,427,False,True,False,False,False,insufficient runtime evidence
+fix-user-intent-nlp-codex,executed,unknown,low,codex,202,False,True,False,False,False,insufficient runtime evidence
+fixing-user-intent-gemini,executed,unknown,low,codex,226,False,True,False,False,False,insufficient runtime evidence
+humor-recognition-llm-ca34-claude,executed,unknown,low,codex,273,False,True,False,False,False,insufficient runtime evidence
+cefr-text-difficulty-0907-claude,executed,unknown,low,codex,262,False,True,False,False,False,insufficient runtime evidence
+news-from-future-ai-aed4-claude,executed,unknown,low,codex,299,False,True,False,False,False,insufficient runtime evidence
+llm-human-vs-llm-fa51-claude,executed,unknown,low,codex,2053,False,True,False,False,False,insufficient runtime evidence
+fix-lazy-llms-f21e-claude,executed,unknown,low,codex,288,False,True,False,False,False,insufficient runtime evidence
+alignment-watermark-0988-claude,executed,unknown,low,codex,289,False,True,False,False,False,insufficient runtime evidence
+isolate-knowledge-updates-f3cd-claude,executed,unknown,low,codex,234,False,True,False,False,False,insufficient runtime evidence
+mechanistic-llm-tools-53ce-claude,executed,unknown,low,codex,306,False,True,False,False,False,insufficient runtime evidence
+refine-llm-trading-e871-claude,executed,unknown,low,codex,255,False,True,False,False,False,insufficient runtime evidence
+carrot-or-stick-nlp-1462-claude,executed,unknown,low,codex,219,False,True,False,False,False,insufficient runtime evidence
+llm-linguistic-eval-dad4-claude,executed,unknown,low,codex,266,False,True,False,False,False,insufficient runtime evidence
+llm-epistemic-beliefs-79a0-claude,executed,unknown,low,codex,345,False,True,False,False,False,insufficient runtime evidence
+uncertainty-llms-75dc-claude,executed,unknown,low,codex,1442,False,True,False,False,False,insufficient runtime evidence
+llm-pragmatic-sensitivity-216e-claude,executed,unknown,low,codex,301,False,True,False,False,False,insufficient runtime evidence
+collab-rlvr-reasoning-f8bd-claude,executed,unknown,low,codex,323,False,True,False,False,False,insufficient runtime evidence
+emergent-misalignment-13b1-claude,executed,unknown,low,codex,449,False,True,False,False,False,insufficient runtime evidence
+adversarial-prompts-abe2-claude,executed,unknown,low,codex,269,False,True,False,False,False,insufficient runtime evidence
+fairness-llm-calibration-0618-claude,executed,unknown,low,codex,239,False,True,False,False,False,insufficient runtime evidence
+sounds-like-ai-61e8-gemini,executed,unknown,low,codex,284,False,True,False,False,False,insufficient runtime evidence
+sounds-like-ai-02cd-codex,executed,unknown,low,codex,281,False,True,False,False,False,insufficient runtime evidence
+residual-stream-ai-a924-claude,executed,unknown,low,codex,282,False,True,False,False,False,insufficient runtime evidence
+multi-turn-regress-fb0d-gemini,executed,unknown,low,codex,177,False,True,False,False,False,insufficient runtime evidence
+multi-turn-regress-d8b8-claude,executed,unknown,low,codex,246,False,True,False,False,False,insufficient runtime evidence
+multi-turn-regress-aaaa-codex,executed,unknown,low,codex,236,False,True,False,False,False,insufficient runtime evidence
+similar-embeddings-nlp-ae9d-gemini,executed,unknown,low,codex,262,False,True,False,False,False,insufficient runtime evidence
+similar-embeddings-nlp-5ef8-codex,executed,unknown,low,codex,181,False,True,False,False,False,insufficient runtime evidence
+similar-embeddings-nlp-f3b7-claude,executed,unknown,low,codex,240,False,True,False,False,False,insufficient runtime evidence
+disorder-order-sync-205e-claude,executed,unknown,low,codex,254,False,True,False,False,False,insufficient runtime evidence
+layer-wise-probing-llm-dcd0-claude,executed,unknown,low,codex,1341,False,True,False,False,False,insufficient runtime evidence
+layer-wise-probing-llm-ece7-codex,executed,unknown,low,codex,213,False,True,False,False,False,insufficient runtime evidence
+refine-llm-trading-4e75-claude,executed,unknown,low,codex,315,False,True,False,False,False,insufficient runtime evidence
+refine-llm-trading-2354-codex,executed,unknown,low,codex,204,False,True,False,False,False,insufficient runtime evidence
+chain-of-thought-conv-b564-claude,executed,unknown,low,codex,260,False,True,False,False,False,insufficient runtime evidence
+chain-of-thought-conv-1189-codex,executed,unknown,low,codex,220,False,True,False,False,False,insufficient runtime evidence
+mechanistic-llm-failures-69ca-claude,executed,unknown,low,codex,244,False,True,False,False,False,insufficient runtime evidence
+model-implicature-nlp-2b80-claude,executed,unknown,low,codex,1447,False,True,False,False,False,insufficient runtime evidence
+multi_objective_optimization_o_20260227_215322_c3d0afee,executed,unknown,low,codex,100,False,True,False,False,False,insufficient runtime evidence
+adv-prompt-propagation-552e-claude,executed,unknown,low,codex,253,False,True,False,False,False,insufficient runtime evidence
+basis-vectors-persona-4079-gemini,executed,unknown,low,codex,228,False,True,False,False,False,insufficient runtime evidence
+basis-vectors-persona-7acf-codex,executed,unknown,low,codex,200,False,True,False,False,False,insufficient runtime evidence
+basis-vectors-persona-03ae-claude,executed,unknown,low,codex,281,False,True,False,False,False,insufficient runtime evidence
+careful-llm-words-c365-gemini,executed,unknown,low,codex,166,False,True,False,False,False,insufficient runtime evidence
+careful-llm-words-4e0d-codex,executed,unknown,low,codex,217,False,True,False,False,False,insufficient runtime evidence
+careful-llm-words-aaec-claude,executed,unknown,low,codex,1485,False,True,False,False,False,insufficient runtime evidence
+mechanistic-llm-failures-4f06-claude,executed,unknown,low,codex,260,False,True,False,False,False,insufficient runtime evidence
+mechanistic-llm-failures-eb40-codex,executed,unknown,low,codex,214,False,True,False,False,False,insufficient runtime evidence
+french-model-counting-ae53-claude,executed,unknown,low,codex,227,False,True,False,False,False,insufficient runtime evidence
+non-pokemon-quality-8c18-claude,executed,unknown,low,codex,216,False,True,False,False,False,insufficient runtime evidence
+steering-vector-decay-b58d-claude,unclassified_content,unknown,low,claude,3,False,False,False,False,False,insufficient runtime evidence
+model-count-french-96cb-claude,executed,unknown,low,codex,355,False,True,False,False,False,insufficient runtime evidence
+non-pokemon-quality-nlp-ea69-claude,executed,unknown,low,codex,232,False,True,False,False,False,insufficient runtime evidence
+steering-vector-decay-4272-claude,executed,unknown,low,codex,295,False,True,False,False,False,insufficient runtime evidence
+residual-stream-biject-e825-claude,executed,unknown,low,codex,213,False,True,False,False,False,insufficient runtime evidence
+noncomp-phrases-nlp-c335-claude,executed,unknown,low,codex,207,False,True,False,False,False,insufficient runtime evidence
+self-critique-drift-6de2-claude,executed,standard,medium,codex,237,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-fallacy-detection-4626-claude,executed,standard,medium,codex,245,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+architectural_diversity_in_mul_20260306_214906_8d1e21a6,executed,standard,medium,codex,195,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+autonomous_multi_modal_ai_agen_20260306_222539_298f467e,executed,standard,medium,codex,179,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+debate-proof-strategies-1084-claude,executed,standard,medium,codex,218,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+emergent_robustness_to_adversa_20260307_082630_b330f08b,executed,standard,medium,codex,169,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+mechanistic_interpretability_f_20260307_144014_42ccbc9d,executed,unknown,low,unknown,24,True,False,False,False,False,insufficient runtime evidence
+rainbow-conn-random-1698,executed,standard,medium,codex,149,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+rainbow-conn-random-f967,executed,standard,medium,codex,142,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+self-critique-drift-4703-claude,executed,standard,medium,codex,276,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+self-critique-drift-e068-gemini,executed,standard,medium,codex,326,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+attention-in-ai-d12f-claude,executed,standard,medium,codex,194,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+attention-for-ai-bc53-codex,executed,standard,medium,codex,303,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+attention-for-ai-f38a-gemini,executed,standard,medium,codex,197,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+french-model-count-debc-claude,executed,standard,medium,codex,252,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+french-model-counting-9f9d-codex,executed,standard,medium,codex,206,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+model-count-french-94dd-gemini,executed,standard,medium,codex,205,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-proof-verification-4ab2-claude,executed,standard,medium,codex,307,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+temporal-credit-assign-42dd-claude,executed,standard,medium,codex,268,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+self-critique-drift-687e-codex,executed,standard,medium,codex,198,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+cognitive-semi-groups-b2bf-claude,executed,standard,medium,codex,243,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+prompt-failure-prediction-0191-claude,executed,standard,medium,codex,283,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+convergence-coherence-4256-claude,executed,standard,medium,codex,220,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+adv-meta-llm-interpret-2f36-claude,executed,standard,medium,codex,294,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+error-propagation-proof-4a91-claude,executed,standard,medium,codex,235,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+multi-agent-cot-conv-11e2-claude,executed,standard,medium,codex,350,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+geom-loss-landscapes-cdfb-claude,executed,standard,medium,codex,256,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+emergent-alignment-llm-b11c-claude,executed,standard,medium,codex,256,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+phase-transitions-6299-claude,executed,standard,medium,codex,238,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+lying-style-nlp-0448-claude,executed,standard,medium,codex,228,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+lying-style-nlp-9950-gemini,executed,standard,medium,codex,348,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+lying-style-nlp-92c9-codex,executed,standard,medium,codex,203,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+live-salmon-ai-test-19cc-claude,executed,standard,medium,codex,325,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+live-salmon-ai-test-7d56-codex,executed,standard,medium,codex,283,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+live-salmon-ai-test-4361-gemini,executed,standard,medium,codex,236,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+incontext-if-then-2dae-claude,executed,standard,medium,codex,251,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+incontext-if-then-31c6-codex,executed,standard,medium,codex,258,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+inctx-if-then-capacity-6ce0-gemini,executed,standard,medium,codex,189,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+chat-convergence-claude,executed,standard,medium,codex,249,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+transformer-int-intervals-claude,executed,standard,medium,codex,237,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+specialized-copying-claude,executed,standard,medium,codex,256,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+counter-example-machine-claude,executed,standard,medium,codex,231,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+partial-isomorphisms-claude,executed,standard,medium,codex,325,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-zero-shot-entropy-claude,executed,standard,medium,codex,208,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+finetune-saturation-claude,executed,standard,medium,codex,251,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+where-is-rhyming-claude,executed,standard,medium,codex,230,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+many-shot-residual-geom-claude,executed,standard,medium,codex,253,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+granular-deletes-nlp-claude,executed,standard,medium,codex,258,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-bullying-analysis-claude,executed,standard,medium,codex,232,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+lying-style-nlp-claude,executed,standard,medium,codex,291,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+person-space-mapping-claude,executed,standard,medium,codex,241,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+proficiency-features-claude,executed,standard,medium,codex,243,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+nat-induction-heads-claude,executed,standard,medium,codex,267,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+predict-slop-ai-claude,executed,standard,medium,codex,241,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+cross-comp-reps-claude,executed,standard,medium,codex,267,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+scaling-laws-finetune-claude,executed,standard,medium,codex,320,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+test-llm-impersonators-claude,executed,standard,medium,codex,284,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+ai-undetectability-lb-claude,executed,standard,medium,codex,572,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+mistake-vs-persona-claude,executed,standard,medium,codex,318,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-keeping-secrets-claude,executed,standard,medium,codex,231,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+higher-level-implicit-claude,executed,standard,medium,codex,199,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+less-ai-sounding-claude,executed,standard,medium,codex,290,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+evolving-forecasters-claude,executed,standard,medium,codex,245,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+abstraction-vs-grounding-claude,executed,standard,medium,codex,238,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+logit-lens-limits-claude,executed,standard,medium,codex,269,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+careful-llm-words-claude,executed,standard,medium,codex,205,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+alignment-watermark-claude,executed,standard,medium,codex,479,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-one-pass-ordering-claude,executed,standard,medium,codex,202,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+invertible-lm-output-claude,executed,standard,medium,codex,307,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+nonlinear-diction-nlp-claude,executed,standard,medium,codex,241,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+sounds-like-ai-claude,executed,standard,medium,codex,235,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-pain-analysis-eb23-claude,executed,standard,medium,codex,273,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-pain-analysis-694e-codex,executed,standard,medium,codex,216,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-pain-analysis-89e0-gemini,executed,standard,medium,codex,195,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+factorio-social-ai-claude,executed,standard,medium,codex,261,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+hidden-state-storage-claude,executed,standard,medium,codex,204,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-priming-sidechan-claude,executed,standard,medium,codex,218,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+multi-turn-regress-claude,executed,standard,medium,codex,264,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+news-future-ai-claude,executed,standard,medium,codex,467,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+finetuning-proof-datasets-claude,executed,standard,medium,codex,245,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+false-memories-llm-claude,executed,standard,medium,codex,939,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+covariance-belief-space-claude,executed,standard,medium,codex,220,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+info-in-out-genai-claude,executed,standard,medium,codex,226,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+steering-expanded-mlp-claude,executed,standard,medium,codex,243,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+residual-stream-biject-claude,executed,standard,medium,codex,209,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+all-words-phrases-nlp-claude,executed,standard,medium,codex,179,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+phrase-arithmetic-nlp-claude,executed,standard,medium,codex,248,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+quantify-llm-factors-claude,executed,standard,medium,codex,359,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+coordination-ai-game-claude,executed,standard,medium,codex,278,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-forget-better-claude,executed,standard,medium,codex,318,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+token-direction-stream-claude,executed,standard,medium,codex,325,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+non-pokemon-quality-nlp-claude,executed,standard,medium,codex,205,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+aligned-models-exasperati-claude,executed,standard,medium,codex,224,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+no-costume-theories-claude,executed,standard,medium,codex,229,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+pca-hidden-states-nlp-claude,initialized_only,unknown,low,claude,3,False,False,False,False,False,insufficient runtime evidence
+similarity-eclipsing-claude,executed,standard,medium,codex,324,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+sim-sensory-nlp-claude,executed,standard,medium,codex,204,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-consciousness-info-claude,executed,standard,medium,codex,188,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+steering-vector-decay-claude,executed,standard,medium,codex,244,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+noncomp-phrases-nlp-claude,executed,standard,medium,codex,183,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+out-of-order-memoriz-claude,executed,standard,medium,codex,250,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+steering-vectors-nlp-claude,executed,standard,medium,codex,347,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-thankfulness-claude,executed,standard,medium,codex,306,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+mlp-token-mapping-claude,executed,standard,medium,codex,240,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-provocations-claude,executed,standard,medium,codex,543,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+necessity-sufficiency-claude,executed,standard,medium,codex,299,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+hard-to-describe-dir-claude,executed,standard,medium,codex,196,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+dist-shift-curriculum-claude,executed,standard,medium,codex,256,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+basis-vectors-persona-claude,executed,standard,medium,codex,318,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+adversarial-ood-robustnes-73d8-claude,executed,standard,medium,codex,205,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+adv-ood-robustness-6bad-codex,executed,standard,medium,codex,273,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+adv-ood-robustness-3427-gemini,executed,standard,medium,codex,166,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+story-cot-nlp-claude,executed,standard,medium,codex,227,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-coverage-efficiency-claude,executed,standard,medium,codex,376,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+detecting-lies-nlp-3065-codex,executed,standard,medium,codex,257,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+detecting-lies-nlp-777f-gemini,executed,standard,medium,codex,232,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+detecting-lies-nlp-c886-claude,executed,standard,medium,codex,7757,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+factoring-friendly-assist-claude,executed,standard,medium,codex,248,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-tongue-twisters-claude,executed,standard,medium,codex,244,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+self-critique-ai-writer-claude,executed,standard,medium,codex,228,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+multi-persona-exag-claude,initialized_only,unknown,low,claude,3,False,False,False,False,False,insufficient runtime evidence
+inctx-if-then-capacity-claude,executed,standard,medium,codex,244,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+model-count-french-claude,executed,standard,medium,codex,209,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+1p-rlhf-claude,executed,standard,medium,codex,238,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+instruct-story-mix-claude,executed,standard,medium,codex,310,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+map-of-vibe-space-claude,executed,standard,medium,codex,209,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+keep-base-models-claude,executed,standard,medium,codex,244,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+chain-of-thought-conv-claude,executed,standard,medium,codex,4155,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-pain-analysis-claude,executed,standard,medium,codex,335,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+artificial-outsiders-nlp-9b1b-claude,executed,standard,medium,codex,600,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+math-distillation-challenge-claude,empty,unknown,low,unknown,0,False,False,False,False,False,no valid HEAD
+trace-impurities-ce-claude,executed,standard,medium,codex,238,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+function-vectors-nlp-d7c3-claude,executed,standard,medium,codex,245,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+function-vectors-nlp-2537-codex,executed,standard,medium,codex,317,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+function-vectors-nlp-299e-gemini,executed,standard,medium,codex,153,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+math-distillation-d448-claude,executed,standard,medium,codex,179,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+math-distillation-57a1-gemini,executed,standard,medium,codex,287,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-bullying-analysis-9159-claude,executed,standard,medium,codex,225,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-bullying-detection-e4d9-codex,executed,standard,medium,codex,217,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-bullying-analysis-9ffe-gemini,executed,standard,medium,codex,156,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+math-distillation-c376-codex,executed,standard,medium,codex,192,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+adversarial-tone-llm-2ab2-claude,executed,standard,medium,codex,189,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+null-robustness-mapping-8bf6-claude,executed,standard,medium,codex,288,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+phase-transitions-llm-5d8c-claude,executed,standard,medium,codex,246,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+adversarial-battery-4ef6-claude,executed,standard,medium,codex,260,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+math-align-invariant-9640-claude,executed,standard,medium,codex,221,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+compositional-directions-17d5-claude,executed,standard,medium,codex,335,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+compositional-directions-fe75-codex,executed,standard,medium,codex,272,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+compositional-directions-cf35-gemini,executed,standard,medium,codex,670,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+underrated-metric-nlp-0ca5-claude,executed,standard,medium,codex,204,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+underrated-metric-nlp-f82f-codex,executed,standard,medium,codex,183,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+underrated-metric-nlp-51aa-gemini,executed,standard,medium,codex,185,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+reasoning-trace-robustnes-318e-codex,executed,standard,medium,codex,333,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+reasoning-trace-robustnes-dd20-gemini,executed,standard,medium,codex,186,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+reasoning-trace-robustnes-6b65-claude,executed,standard,medium,codex,245,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+sycophancy-lang-resources-6bb3-claude,executed,standard,medium,codex,237,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+monotonicity-bias-nlp-claude,executed,standard,medium,codex,220,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+cond-steering-vectors-claude,executed,standard,medium,codex,288,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+context-heavy-personas-claude,executed,standard,medium,codex,221,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+adv-prompts-firewalls-claude,executed,standard,medium,codex,240,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+compositional-directions-claude,executed,standard,medium,codex,308,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-text-limitations-claude,executed,standard,medium,codex,240,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+anchoring-bias-lookback-claude,executed,standard,medium,codex,226,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+small-gradients-nlp-claude,executed,standard,medium,codex,283,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-similar-sounds-claude,executed,standard,medium,codex,182,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-offense-analysis-claude,executed,standard,medium,codex,305,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+artificial-outsiders-nlp-claude,executed,standard,medium,codex,264,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+leading-personas-nlp-claude,executed,standard,medium,codex,270,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+underrated-novelty-nlp-claude,executed,standard,medium,codex,215,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-complex-patterns-claude,executed,standard,medium,codex,300,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+sweaty-liars-nlp-claude,executed,standard,medium,codex,261,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+find-vars-nlp-claude,executed,standard,medium,codex,659,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+arch-specific-data-claude,executed,standard,medium,codex,220,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-intrusive-thoughts-claude,executed,standard,medium,codex,318,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+direction-conflation-claude,executed,standard,medium,codex,337,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-text-limitations-33a4-claude,executed,standard,medium,codex,226,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-text-limitations-fe0a-codex,executed,standard,medium,codex,220,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+text-llm-limitations-7bc7-gemini,executed,standard,medium,codex,156,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+generalization-refusal-f96b-codex,executed,standard,medium,codex,303,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+generalization-refusal-f437-claude,executed,standard,medium,codex,304,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+sycophancy-lang-resources-d777-codex,executed,standard,medium,codex,4616,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+sycophancy-lang-resources-0311-claude,executed,standard,medium,codex,9009,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+generalize-refusal-76f7-gemini,executed,standard,medium,codex,210,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+sycophancy-lang-resources-f4fb-gemini,executed,standard,medium,codex,223,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+math-distillation-v2-0a91-claude,executed,standard,medium,codex,159,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+math-distillation-v2-7cd5,executed,standard,medium,codex,183,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+interp-incongruent-48af-claude,executed,standard,medium,codex,255,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+interp-incongruent-79b3-codex,executed,standard,medium,codex,193,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+interp-incongruent-3e42-gemini,executed,standard,medium,codex,253,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+diluted-steganography-b649-gemini,executed,standard,medium,codex,172,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+diluted-steganography-9471-claude,executed,standard,medium,codex,211,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+diluted-steganography-nlp-9907-codex,executed,standard,medium,codex,214,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+induction-head-leakage-36ef-gemini,executed,standard,medium,codex,189,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+induction-head-leakage-9a37-claude,executed,standard,medium,codex,259,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+induction-head-leakage-8afa-codex,executed,standard,medium,codex,293,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+robustness-vs-artifacts-21e9-claude,executed,standard,medium,codex,294,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+hidden-misalignment-llm-6ab7-claude,executed,standard,medium,codex,320,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+stat-meta-robustness-948b-claude,executed,standard,medium,codex,263,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+adv-robust-battery-sim-9bd0-claude,executed,standard,medium,codex,279,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+misalignment-thresholds-151f-claude,executed,standard,medium,codex,215,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+mlp-hidden-state-b821-claude,executed,standard,medium,codex,441,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+layernorm-concept-assoc-dbdc-claude,executed,standard,medium,codex,361,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-recommender-efficacy-84bb-claude,executed,standard,medium,codex,230,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+mlp-hidden-state-1a8c-codex,executed,standard,medium,codex,283,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+mlp-hidden-state-2c11-gemini,executed,standard,medium,codex,215,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-standard-knowledge-e336-gemini,executed,standard,medium,codex,207,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-standard-knowledge-9f5d-codex,executed,standard,medium,codex,269,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+agents-avoid-collapse-4c30-gemini,executed,standard,medium,codex,162,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-standard-knowledge-c8f8-claude,executed,standard,medium,codex,255,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+agents-avoid-collapse-6c08-codex,executed,standard,medium,codex,211,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+agents-avoid-collapse-2361-claude,executed,standard,medium,codex,358,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+reverse-engineer-null-6299-claude,executed,standard,medium,codex,203,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+science-of-sycophancy-ee2b-claude,executed,standard,medium,codex,6364,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+theory-of-simulation-1d19-claude,executed,standard,medium,codex,849,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+simulation-theory-ai-54bc-gemini,executed,standard,medium,codex,176,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-recommendation-impact-2d38-gemini,executed,standard,medium,codex,186,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+layernorm-concept-assoc-8ff1-gemini,executed,standard,medium,codex,157,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+layernorm-concept-assoc-65c1-codex,executed,standard,medium,codex,226,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+align-failures-taxonomy-db56-claude,executed,standard,medium,codex,692,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llms-recommendation-ef-d7dc-codex,executed,standard,medium,codex,202,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+theory-of-simulation-6163-codex,executed,standard,medium,codex,916,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+hashmap-attention-5994-claude,executed,standard,medium,codex,29796,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+theory-of-simulation-ed89-claude,executed,standard,medium,codex,303,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+gatekeeping-signaling-f85b-claude,executed,standard,medium,codex,323,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+talkie-generalization-ff5d-codex,executed,standard,medium,codex,234,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+talkie-generalization-8356-gemini,executed,standard,medium,codex,167,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-judgment-impact-7e69-codex,executed,standard,medium,codex,209,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+align-failure-taxonomy-d26d-codex,executed,autoresearch,high,codex,596,True,True,True,False,False,AutoResearch runtime artifacts
+llm-judgment-effect-fa08-gemini,executed,standard,medium,codex,193,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+align-failures-taxonomy-344e-gemini,executed,autoresearch,high,codex,194,True,True,True,False,False,AutoResearch runtime artifacts
+talkie-generalization-e993-claude,executed,standard,medium,codex,397,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-judgment-impact-9fb4-claude,executed,standard,medium,codex,4196,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+distinct-persona-ai-b685-gemini,executed,standard,medium,codex,261,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-loopholes-research-1dc8-gemini,executed,standard,medium,codex,196,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+distinct-persona-ai-5094-codex,executed,standard,medium,codex,806,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-loopholes-research-9e63-codex,executed,standard,medium,codex,224,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-persona-dislike-e5f8-gemini,executed,standard,medium,codex,180,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-loopholes-research-570f-claude,executed,standard,medium,codex,3266,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+distinct-persona-ai-12e6-claude,executed,standard,medium,codex,3497,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-persona-dislike-c0d6-codex,executed,standard,medium,codex,448,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-persona-dislike-1529-claude,executed,unknown,low,codex,3431,True,False,False,False,False,insufficient runtime evidence
+novel-bio-mechanisms-c075-claude,executed,standard,medium,codex,250,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-death-thoughts-cdac-gemini,executed,standard,medium,codex,187,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-reading-modes-30aa-gemini,executed,standard,medium,codex,223,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-forecasting-cd55-claude,executed,standard,medium,codex,256,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-death-thoughts-b7a5-claude,executed,standard,medium,codex,311,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-reading-modes-c01e-claude,executed,standard,medium,codex,205,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-forecasting-ea39-gemini,executed,standard,medium,codex,197,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-death-thoughts-89b7-codex,executed,standard,medium,codex,196,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-reading-modes-af09-codex,executed,standard,medium,codex,806,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-forecasting-3be2-codex,executed,standard,medium,codex,333,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+hilbert-nullstellensatz-d241-codex,executed,standard,medium,codex,485,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+jacobson-commutativity-3-36c0-codex,executed,standard,medium,codex,168,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+novel-bio-mechanisms-a08e-gemini,executed,standard,medium,codex,153,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-vs-human-loopholes-0ca7-gemini,executed,standard,medium,codex,165,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+novel-geom-addressing-c44b-claude,executed,standard,medium,codex,1899,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+novel-bio-mechanisms-002c-claude,executed,standard,medium,codex,223,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-vs-human-loopholes-e858-claude,executed,standard,medium,codex,4348,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+novel-geom-addressing-028d-gemini,executed,standard,medium,codex,200,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+novel-bio-mechanisms-594c-codex,executed,standard,medium,codex,250,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-vs-human-loopholes-028c-codex,executed,standard,medium,codex,241,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+novel-geom-addressing-506d-codex,executed,standard,medium,codex,252,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+ai-driven-invention-03d7-gemini,executed,standard,medium,codex,196,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+narrative-space-llm-3519-gemini,executed,standard,medium,codex,209,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+base-vs-instruct-models-d95a-claude,executed,standard,medium,codex,232,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+ai-driven-invention-4088-claude,executed,standard,medium,codex,199,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+ai-driven-invention-9655-codex,executed,standard,medium,codex,266,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+base-vs-instruct-models-d3a1-gemini,executed,standard,medium,codex,234,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+narrative-space-llm-8f63-claude,executed,standard,medium,codex,1418,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+narrative-space-llm-65e5-codex,executed,standard,medium,codex,236,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+base-vs-instruct-models-9ebe-codex,executed,standard,medium,codex,243,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-sleep-mechanism-d0a6-claude,executed,standard,medium,codex,179,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+sampling-nn-1a8c-claude,executed,standard,medium,codex,448,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+error-extrapolation-1820-claude,executed,standard,medium,codex,188,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+error-extrapolation-d0c9-gemini,executed,standard,medium,codex,211,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+sampling-nn-0688-gemini,executed,standard,medium,codex,197,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-sleep-mechanism-18a0-codex,executed,standard,medium,codex,294,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-sleep-mechanism-95e3-gemini,executed,standard,medium,codex,277,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+sampling-nn-d01c-codex,executed,standard,medium,codex,226,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+error-extrapolation-6a30-codex,executed,standard,medium,codex,274,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+grounded-novelty-ai-69c6-claude,executed,standard,medium,codex,2307,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+neural-symbolic-ai-d145-claude,executed,standard,medium,codex,2588,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+drama-types-ai-e4ac-claude,executed,standard,medium,codex,224,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+icl-finetune-gap-0331-claude,executed,standard,medium,codex,258,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llms-know-answer-73ae-claude,executed,standard,medium,codex,190,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+drama-types-ai-58c0-codex,executed,standard,medium,codex,321,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+icl-finetune-scale-398c-codex,executed,standard,medium,codex,297,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llms-know-answer-eef8-codex,executed,standard,medium,codex,258,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+quantum-ml-methods-7581-claude,executed,standard,medium,codex,173,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+quantum-ml-methods-d41e-claude,executed,standard,medium,codex,219,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+grounded-novelty-ai-6ac8-claude,executed,standard,medium,codex,772,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+neural-symbolic-ai-41f3-claude,executed,standard,medium,codex,192,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-blindspot-priorities-60de-claude,executed,standard,medium,codex,2426,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+grounded-novelty-ai-5114-codex,executed,standard,medium,codex,244,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+logit-lens-implicit-fbb4-codex,executed,standard,medium,codex,304,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+neural-symbolic-ai-2f28-codex,executed,standard,medium,codex,376,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+logit-lens-implicit-9a0d-claude,executed,standard,medium,codex,221,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-multi-person-id-f00b-codex,executed,standard,medium,codex,216,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+sticky-personas-ai-a685-codex,executed,standard,medium,codex,1752,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+quantum-ml-methods-c288-codex,executed,standard,medium,codex,244,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+sticky-personas-ai-9dab-claude,executed,standard,medium,codex,382,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+quantum-ml-methods-54ff-claude,executed,standard,medium,codex,245,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm-multi-person-id-1096-claude,executed,standard,medium,codex,3984,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llm_unspeakables_20260713_124114_33f1a14e,executed,standard,medium,codex,244,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+llms_don_t_do_much_tom_in_writ_20260714_234243_6b6ff0f4,executed,standard,medium,codex,4122,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+how_do_we_make_sure_skills_sel_20260715_033947_a0801865,executed,standard,medium,codex,4076,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+cartographers_of_the_ai_latent_20260720_142733_1b997657,executed,unknown,low,codex,233,True,False,False,False,False,insufficient runtime evidence
+synthetic_data_with_base_model_20260720_181704_b08e72e8,executed,standard,medium,codex,229,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+what_kind_of_tools_do_llms_thi_20260720_181157_f89eda47,executed,standard,medium,codex,219,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+adversarial_prompt_injection_v_20260728_181355_db6fd146,executed,standard,medium,codex,100,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+emergent_adversarial_prompt_in_20260728_195215_54394617,executed,standard,medium,codex,100,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+can_self_report_training_help__20260728_230205_15848d12,executed,standard,medium,codex,213,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+scaling_analysis_of_distribute_20260729_000241_d3c51cab,executed,standard,medium,codex,100,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+adversarial_prompt_injection_v_20260729_000827_3a2a967e,executed,standard,medium,codex,100,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+emergent_collective_intelligen_20260729_001254_501032ff,executed,standard,medium,codex,100,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+semantic_coherence_impact_on_a_20260729_154614_23123c8f,executed,standard,medium,codex,100,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+systematic_bias_in_llm_chain_o_20260729_160340_206cc029,executed,standard,medium,codex,100,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+systematic_bias_in_llm_uncerta_20260729_161235_2f048b69,executed,standard,medium,codex,100,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+multi_agent_adversarial_prompt_20260729_161608_d239e51e,executed,standard,medium,codex,100,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+confidence_calibration_bias_in_20260729_173126_3e462a5c,initialized_only,unknown,low,unknown,3,False,False,False,False,False,insufficient runtime evidence
+uncertainty_quantification_in__20260729_174425_a1dd0b7b,initialized_only,unknown,low,unknown,3,False,False,False,False,False,insufficient runtime evidence
+emergent_collective_intelligen_20260729_220327_7c5d10a3,initialized_only,unknown,low,unknown,3,False,False,False,False,False,insufficient runtime evidence
+decomposing_epistemic_and_alea_20260729_220440_015e4747,initialized_only,unknown,low,unknown,3,False,False,False,False,False,insufficient runtime evidence
+causal_analysis_of_chain_of_th_20260729_225459_a67beda8,initialized_only,unknown,low,unknown,3,False,False,False,False,False,insufficient runtime evidence
+mediation_analysis_of_chain_of_20260729_225721_8b610257,initialized_only,unknown,low,unknown,3,False,False,False,False,False,insufficient runtime evidence
+architectural_vulnerability_pa_20260729_233928_30466f46,initialized_only,unknown,low,unknown,3,False,False,False,False,False,insufficient runtime evidence
+uncertainty_quantification_in__20260729_234457_09cb52d9,initialized_only,unknown,low,unknown,3,False,False,False,False,False,insufficient runtime evidence
+uncertainty_quantification_in__20260729_234744_42b8fd3c,initialized_only,unknown,low,unknown,3,False,False,False,False,False,insufficient runtime evidence
+optimal_context_window_scaling_20260729_235329_d2f87e8b,initialized_only,unknown,low,unknown,3,False,False,False,False,False,insufficient runtime evidence
+adversarial_robustness_of_caus_20260730_075226_8bc8290e,initialized_only,unknown,low,unknown,3,False,False,False,False,False,insufficient runtime evidence
+probabilistic_calibration_metr_20260730_075410_ac649b07,initialized_only,unknown,low,unknown,3,False,False,False,False,False,insufficient runtime evidence
+systematic_stress_testing_of___20260730_161741_765e263a,executed,standard,medium,codex,100,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+can-self-report-training-help-lie-de4e-codex,executed,standard,medium,codex,268,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+tension-between-independence-0807-codex,executed,standard,medium,codex,201,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+already-present-beliefs-ea16-codex,executed,standard,medium,codex,230,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+reverse-stress-testing-for-detecting-f225,executed,unknown,low,codex,105,True,False,False,False,False,insufficient runtime evidence
+null-results-as-alignment-signals-858f,executed,standard,medium,codex,171,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+null-alignment-matrix-diagnosing-when-56ad,executed,standard,medium,codex,151,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+systematic-stress-testing-daac,initialized_only,unknown,low,unknown,3,False,False,False,False,False,insufficient runtime evidence
+blind-adversarial-evaluation-3b83,initialized_only,unknown,low,unknown,3,False,False,False,False,False,insufficient runtime evidence
+systematically-mapping-the-null-result-3d8a,initialized_only,unknown,low,unknown,3,False,False,False,False,False,insufficient runtime evidence
+diagnosing-null-results-in-misalignment-e05e,initialized_only,unknown,low,unknown,3,False,False,False,False,False,insufficient runtime evidence
+dialing-up-misalignment-systematic-c2b3,executed,standard,medium,codex,107,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+systematic-stress-testing-3eba,initialized_only,unknown,low,unknown,3,False,False,False,False,False,insufficient runtime evidence
+reverse-alignment-characterizing-46f6,executed,standard,medium,codex,268,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+reverse-nulls-diagnosing-the-hidden-732a,executed,standard,medium,codex,184,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+win-on-post-train-bencn-75ee,initialized_only,unknown,low,unknown,3,False,False,False,False,False,insufficient runtime evidence
+systematic-hypothesis-testing-of-null-f70b,executed,unknown,low,codex,325,True,False,False,False,False,insufficient runtime evidence
+adaptive-experimental-design-ead2,executed,standard,medium,codex,456,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+systematically-probing-alignment-null-843e,executed,standard,medium,codex,258,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+quantifying-the-null-intervention-c064,executed,standard,medium,codex,272,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+diagnosing-experimental-insensitivity-c74f,executed,standard,medium,codex,291,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+scaling-law-deviations-under-targeted-ee5c,initialized_only,unknown,low,unknown,3,False,False,False,False,False,insufficient runtime evidence
+when-should-an-ai-ask-for-clarification-f275-claude,executed,standard,medium,codex,344,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+when-should-an-ai-ask-for-clarification-59b5-codex,executed,standard,medium,codex,209,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+fixed-points-of-ai-revision-a756,executed,standard,medium,codex,2628,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+can-powerful-models-help-with-difficult-3a0f-codex,executed,standard,medium,codex,206,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+preference-understanding-9cf3-codex,executed,standard,medium,codex,207,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+can-powerful-models-help-with-difficult-dab1-claude,initialized_only,unknown,low,claude,3,False,False,False,False,False,insufficient runtime evidence
+preference-understanding-8cc6-claude,executed,standard,medium,codex,299,True,True,False,False,False,ordinary NeuriCo pipeline and execution logs; no AutoResearch/HITL artifacts
+cot-interpretability-brain-age,empty,unknown,low,unknown,0,False,False,False,False,False,no valid HEAD

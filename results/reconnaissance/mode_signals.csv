@@ -1,0 +1,9 @@
+repo_name,provider,has_pipeline_state,pipeline_stages,pipeline_completed,has_hitl_dir,has_hitl_launch,n_hitl_files,has_autoresearch_path,n_autoresearch_paths,n_log_files,hitl_examples,autoresearch_examples,mode,confidence,mode_evidence
+can-powerful-models-help-with-difficult-3a0f-codex,codex,True,resource_finder|experiment_runner,True,False,False,0,False,0,7,,,standard,medium,ordinary NeuriCo pipeline with transcripts; no AutoResearch/HITL runtime artifacts
+can-powerful-models-help-with-difficult-dab1-claude,claude,False,,,False,False,0,False,0,0,,,unknown,low,insufficient runtime metadata
+cot-interpretability-brain-age,unknown,False,,,False,False,0,False,0,0,,,unknown,low,insufficient runtime metadata
+fixed-points-of-ai-revision-a756,claude,True,resource_finder|experiment_runner,True,False,False,0,False,0,7,,,standard,medium,ordinary NeuriCo pipeline with transcripts; no AutoResearch/HITL runtime artifacts
+preference-understanding-8cc6-claude,claude,True,resource_finder|experiment_runner,False,False,False,0,False,0,5,,,standard,medium,ordinary NeuriCo pipeline with transcripts; no AutoResearch/HITL runtime artifacts
+preference-understanding-9cf3-codex,codex,True,resource_finder|experiment_runner,True,False,False,0,False,0,7,,,standard,medium,ordinary NeuriCo pipeline with transcripts; no AutoResearch/HITL runtime artifacts
+when-should-an-ai-ask-for-clarification-59b5-codex,codex,True,resource_finder|experiment_runner,True,False,False,0,False,0,6,,,standard,medium,ordinary NeuriCo pipeline with transcripts; no AutoResearch/HITL runtime artifacts
+when-should-an-ai-ask-for-clarification-f275-claude,claude,True,resource_finder|experiment_runner,True,False,False,0,False,0,7,,,standard,medium,ordinary NeuriCo pipeline with transcripts; no AutoResearch/HITL runtime artifacts
