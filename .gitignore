@@ -1,0 +1,8 @@
+
+# External/reference repositories
+external/
+
+# Large trajectory corpus
+data/raw/
+data/processed/
+data/cache/
