@@ -6,3 +6,5 @@ external/
 data/raw/
 data/processed/
 data/cache/
+scripts/__pycache__/
+results/recovery/
