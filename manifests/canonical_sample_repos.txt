@@ -1,0 +1,10 @@
+llms-expose-science-claude	normal_claude
+llm-nonsense-commands-codex	normal_codex
+llm-nonsense-commands-gemini	normal_gemini
+llm-linguistic-eval-62f9-gemini	multi_provider
+when-should-an-ai-ask-for-clarification-f275-claude	paper_writer
+ai-human-comm-codex	resource_only
+alignment-watermark-0988-claude	execution_only
+ai-human-communication-claude	additional_normal
+llms-expose-science-codex	additional_normal
+llms-expose-science-gemini	additional_normal
