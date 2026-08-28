@@ -1,0 +1,4 @@
+provider,trajectories,repositories,raw_records,canonical_events,median_events
+claude,291,291,167596,163320,498.0
+codex,96,96,34281,32850,340.5
+gemini,82,82,27488,27488,292.5

@@ -1,0 +1,6 @@
+unknown_structure,count,fraction_of_events
+claude:user_block:document,1252,0.005597832404832378
+codex:item:web_search,693,0.003098480716093321
+gemini:non_dict,10,4.471112144434807e-05
+codex:item:error,3,1.341333643330442e-05
+codex:item:mcp_tool_call,1,4.471112144434807e-06
