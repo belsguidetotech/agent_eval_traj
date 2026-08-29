@@ -1,0 +1,8 @@
+event_type,count,share_pct
+message,39582,17.698
+tool_call,67488,30.175
+tool_result,63145,28.233
+artifact_change,1043,0.466
+error,4387,1.961
+status,46054,20.591
+other,1959,0.876

@@ -1,0 +1,5 @@
+property,numerator,denominator,coverage_pct
+Tool calls with semantic action type,67488,67488,100.0
+Tool calls with tool identity,67488,67488,100.0
+Tool calls with call identifier,67488,67488,100.0
+Tool results with parent-event linkage,63121,63145,99.962

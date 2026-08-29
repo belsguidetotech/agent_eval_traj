@@ -1,0 +1,16 @@
+statistic,value
+Analysis repositories,467
+Repositories with runtime transcripts,462
+Provider trajectories with transcripts,469
+Event-bearing provider trajectories,455
+Repositories with canonical events,448
+Transcript files,923
+Raw JSON records,229365
+Non-JSON transcript lines,21773
+Canonical events,223658
+Claude events,163320
+Codex events,32850
+Gemini events,27488
+Residual other events,"1,959 (0.876%)"
+Parse exceptions,0
+Duplicate event IDs,0
