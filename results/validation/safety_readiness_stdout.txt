@@ -1,0 +1,106 @@
+{
+  "counts": {
+    "events": 223658,
+    "heuristic_source_keyword_matches": 47425,
+    "tool_calls": 67488,
+    "tool_calls_with_action_type": 67488,
+    "tool_calls_with_tool_name": 67488,
+    "tool_calls_with_call_id": 67488,
+    "tool_results": 63145,
+    "tool_results_with_parent": 63121,
+    "heuristic_sink_keyword_matches": 4830
+  },
+  "provider_events": {
+    "claude": 163320,
+    "gemini": 27488,
+    "codex": 32850
+  },
+  "coverage": {
+    "tool_call_action_type_rate": 1.0,
+    "tool_call_tool_name_rate": 1.0,
+    "tool_call_id_rate": 1.0,
+    "tool_result_parent_link_rate": 0.9996199224008235
+  },
+  "examples": {
+    "candidate_external_sources": [
+      {
+        "event_id": "1p-rlhf-claude::claude::resource_finder::logs~resource_finder_claude_transcript.jsonl::1::0",
+        "provider": "claude",
+        "event_type": "message",
+        "tool_name": null,
+        "action_type": "reasoning"
+      },
+      {
+        "event_id": "1p-rlhf-claude::claude::resource_finder::logs~resource_finder_claude_transcript.jsonl::2::0",
+        "provider": "claude",
+        "event_type": "message",
+        "tool_name": null,
+        "action_type": null
+      },
+      {
+        "event_id": "1p-rlhf-claude::claude::resource_finder::logs~resource_finder_claude_transcript.jsonl::6::0",
+        "provider": "claude",
+        "event_type": "tool_call",
+        "tool_name": "Bash",
+        "action_type": "execute"
+      },
+      {
+        "event_id": "1p-rlhf-claude::claude::resource_finder::logs~resource_finder_claude_transcript.jsonl::9::0",
+        "provider": "claude",
+        "event_type": "error",
+        "tool_name": null,
+        "action_type": null
+      },
+      {
+        "event_id": "1p-rlhf-claude::claude::resource_finder::logs~resource_finder_claude_transcript.jsonl::14::0",
+        "provider": "claude",
+        "event_type": "message",
+        "tool_name": null,
+        "action_type": null
+      }
+    ],
+    "candidate_sensitive_sinks": [
+      {
+        "event_id": "1p-rlhf-claude::claude::resource_finder::logs~resource_finder_claude_transcript.jsonl::424::0",
+        "provider": "claude",
+        "event_type": "tool_call",
+        "tool_name": "Write",
+        "action_type": "write",
+        "artifact": "/workspaces/1p-rlhf-claude/literature_review.md"
+      },
+      {
+        "event_id": "1p-rlhf-claude::claude::resource_finder::logs~resource_finder_claude_transcript.jsonl::426::0",
+        "provider": "claude",
+        "event_type": "tool_call",
+        "tool_name": "Write",
+        "action_type": "write",
+        "artifact": "/workspaces/1p-rlhf-claude/resources.md"
+      },
+      {
+        "event_id": "1p-rlhf-claude::claude::execution::logs~execution_claude_transcript.jsonl::9::0",
+        "provider": "claude",
+        "event_type": "tool_call",
+        "tool_name": "Bash",
+        "action_type": "execute",
+        "artifact": null
+      },
+      {
+        "event_id": "1p-rlhf-claude::claude::execution::logs~execution_claude_transcript.jsonl::35::0",
+        "provider": "claude",
+        "event_type": "tool_call",
+        "tool_name": "Write",
+        "action_type": "write",
+        "artifact": "/workspaces/1p-rlhf-claude/planning.md"
+      },
+      {
+        "event_id": "1p-rlhf-claude::claude::execution::logs~execution_claude_transcript.jsonl::68::0",
+        "provider": "claude",
+        "event_type": "tool_call",
+        "tool_name": "Bash",
+        "action_type": "execute",
+        "artifact": null
+      }
+    ]
+  },
+  "interpretation": "The canonical schema preserves tool identity, semantic action labels, call identifiers, and call-result relationships needed for downstream safety enrichment. Keyword-based source/sink matches are illustrative probes only and are not validated safety labels or attack prevalence estimates."
+}
