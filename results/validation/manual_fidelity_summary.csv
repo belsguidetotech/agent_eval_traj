@@ -1,0 +1,17 @@
+provider,metric,correct,applicable,accuracy
+overall,event_type_fidelity,86,90,0.9555555555555556
+overall,action_type_fidelity,25,27,0.9259259259259259
+overall,content_preservation,89,90,0.9888888888888889
+overall,linkage_fidelity,30,30,1.0
+claude,event_type_fidelity,28,30,0.9333333333333333
+claude,action_type_fidelity,8,8,1.0
+claude,content_preservation,30,30,1.0
+claude,linkage_fidelity,11,11,1.0
+codex,event_type_fidelity,28,30,0.9333333333333333
+codex,action_type_fidelity,10,12,0.8333333333333334
+codex,content_preservation,30,30,1.0
+codex,linkage_fidelity,10,10,1.0
+gemini,event_type_fidelity,30,30,1.0
+gemini,action_type_fidelity,7,7,1.0
+gemini,content_preservation,29,30,0.9666666666666667
+gemini,linkage_fidelity,9,9,1.0
